@@ -1,0 +1,49 @@
+# Dependências
+node_modules/
+.pnpm-store/
+
+# Build e transpilação
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Ambiente e chaves
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testes e cobertura
+coverage/
+.nyc_output/
+
+# Cache de ferramentas
+.cache/
+.eslintcache
+.turbo/
+.parcel-cache/
+.vite/
+
+# Artefatos gerados pela análise
+pokeapi-cru-*.json
+
+# Arquivos de editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
